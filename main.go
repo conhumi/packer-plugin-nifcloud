@@ -6,11 +6,11 @@ package main
 import (
 	"fmt"
 	"os"
-	"packer-plugin-scaffolding/builder/scaffolding"
-	scaffoldingData "packer-plugin-scaffolding/datasource/scaffolding"
-	scaffoldingPP "packer-plugin-scaffolding/post-processor/scaffolding"
-	scaffoldingProv "packer-plugin-scaffolding/provisioner/scaffolding"
-	scaffoldingVersion "packer-plugin-scaffolding/version"
+	"packer-plugin-nifcloud/builder/scaffolding"
+	scaffoldingData "packer-plugin-nifcloud/datasource/scaffolding"
+	scaffoldingPP "packer-plugin-nifcloud/post-processor/scaffolding"
+	scaffoldingProv "packer-plugin-nifcloud/provisioner/scaffolding"
+	scaffoldingVersion "packer-plugin-nifcloud/version"
 
 	"github.com/hashicorp/packer-plugin-sdk/plugin"
 )

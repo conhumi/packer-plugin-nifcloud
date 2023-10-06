@@ -32,7 +32,7 @@ Looking at their code will give you good examples.
 ## Running Acceptance Tests
 
 Make sure to install the plugin with `go build .` and to have Packer installed locally.
-Then source the built binary to the plugin path with `cp packer-plugin-scaffolding ~/.packer.d/plugins/packer-plugin-scaffolding`
+Then source the built binary to the plugin path with `cp packer-plugin-nifcloud ~/.packer.d/plugins/packer-plugin-nifcloud`
 Once everything needed is set up, run:
 ```
 PACKER_ACC=1 go test -count 1 -v ./... -timeout=120m
@@ -63,7 +63,7 @@ This is done by adding the block below for the respective plugin to the file [we
 {
    "title": "Scaffolding",
    "path": "scaffolding",
-   "repo": "hashicorp/packer-plugin-scaffolding",
+   "repo": "conhumi/packer-plugin-nifcloud",
    "version": "latest",
    "sourceBranch": "main"
  }
